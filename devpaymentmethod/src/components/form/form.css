@@ -44,6 +44,7 @@
   align-items: flex-start;
   min-height: 40px;
   border-bottom: 1.5px dashed #909090;
+  margin-bottom: 1.5rem;
 }
 
 .head-fieldset .next-text {
@@ -58,4 +59,24 @@
 
 .wrap-form-payment {
   padding-top: 2rem;
+}
+
+.wrap-form-payment fieldset {
+  margin-bottom: 1.2rem;
+}
+
+.wrap-group-input label.form-label {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.wrap-group-input .form-control {
+  border-color: #000;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.wContent {
+  align-items: flex-end;
 }
