@@ -1,0 +1,61 @@
+.wrap-payment .row > .col-md-9 {
+  background: #fff;
+  border-radius: 20px;
+  padding: 0 2rem;
+  display: flex;
+  position: relative;
+}
+
+.wrap-payment .row > .col-md-9 > div {
+  flex: 0 0 auto;
+}
+
+.wrap-payment .row > .col-md-9 > div:first-child {
+  width: 20%;
+}
+
+.wrap-payment .row > .col-md-9 > div:last-child {
+  width: 80%;
+  padding-left: 2rem;
+}
+
+.menu-linkpayment ul li a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.menu-linkpayment > ul {
+  list-style: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.head-fieldset h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #17558b;
+}
+
+.head-fieldset {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 40px;
+  border-bottom: 1.5px dashed #909090;
+}
+
+.head-fieldset .next-text {
+  font-weight: 300;
+}
+
+.head-fieldset .next-text > * {
+  font-size: 14px;
+  position: relative;
+  top: -2px;
+}
+
+.wrap-form-payment {
+  padding-top: 2rem;
+}
