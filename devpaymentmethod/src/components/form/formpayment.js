@@ -15,7 +15,7 @@ function formpayment() {
     <section className='wrap-payment'>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-9 mt-5'>
+            <div className='col-md-8 mt-5 mb-5 pb-3'>
               <div className='menu-wrap'>
                 <Nav className='menu-linkpayment'>
                   <NavUl>
@@ -65,7 +65,7 @@ function formpayment() {
                 <CrediCard />
               </div>
             </div>
-            <div className='col-md-3 mt-5'>
+            <div className='col-md-4 mt-md-5'>
               <Receipt />
             </div>
           </div>
